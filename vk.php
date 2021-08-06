@@ -1,3 +1,10 @@
-<?php 
-	mail("artemlesnoi10@gmail.com", "test", "Текст письма \n 1-ая строчка \n 2-ая строчка \n 3-ая строчка"); 
+<?php
+$to      = 'artemlesnoi10@gmail.com';
+$subject = 'the subject';
+$message = 'hello';
+$headers = 'From: webmaster@example.com' . "\r\n" .
+    'Reply-To: webmaster@example.com' . "\r\n" .
+    'X-Mailer: PHP/' . phpversion();
+
+mail($to, $subject, $message, $headers);
 ?>
