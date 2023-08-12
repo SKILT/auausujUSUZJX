@@ -1,5 +1,5 @@
 <?php
-$to      = 'artemlesnoi10@gmail.com';
+$to      = 'me@gmail.com';
 $subject = 'the subject';
 $message = 'hello';
 $headers = 'From: webmaster@example.com' . "\r\n" .
